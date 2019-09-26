@@ -3,19 +3,148 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <title>Index</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="description" content="Tentamen">
+        <meta name="keywords" content="tentamen">
+        <meta name="author" conent="Robin Göransson">
+        <title>tentamen1_html_Rob_Gor</title>
     </head>
     <body>
         <header>
+            <h1>Robin Göransson</h1>
         </header>
         <nav>
+            <div class="flex-list">
+                <ul>
+                    <div>
+                        <li>
+                            <a href="https://github.com">1</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <a href="https://git-scm.com/docs">2</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <a href="https://www.w3schools.com/">3</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </nav>
         <main>
+            <section>
+                        <ol>
+                            <li>Jane</li>
+                            <li>John</li>
+                            <li>Karen</li>
+                            <li>Karl</li>
+                            <li>Betty</li>
+                            <li>Bart</li>
+                        </ol>
+            </section>
+            <section>
+                <div class="team-table">
+                    <table>
+                        <tr>
+                            <th>Position</th>
+                            <th>Lag</th>
+                            <th>Poäng</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Jägersborg</td>
+                            <td>67p</td>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div class="funny-elements">
+
+                </div>
+            </section>
+            <section>
+                <figure>
+                    <div class="container">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                        <img src="http://placekitten.com/300/200">
+                    </div>
+                </figure>
+            </section>
+            <section>
+                <h2>SEO</h2>
+                <ol>
+                    <li>Korrekt strukturerad</li>
+                    <li>Inga Brutna Länkar</li>
+                    <li>Använd nyckelord i texten</li>
+                    <li>Använd nyckelord i headers</li>
+                    <li>Använd meta tag för description/keywords</li>
+                    <li>Använd Nyckelord i URL:en</li>
+                </ol>
+            </section>
+            <section>
+                <article>
+                    <h2>SEO och Nyckelord</h2>
+                    <p>Man använder sig av nyckelord både i texten, header, titles och gärna i URLs</p>
+                    <p>Man ska se till att det inte är ett nyckelord som är väl använt och använd gärna utökade nyckelord där du beskriver något mer specifikt med en platsbeskrivning. Tex Båtbyxor växjö / sverige osv.</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Responsiv Webbdesign</h2>
+                    <p>Responsiv Webbdesign innebär att en webbsida ska vara tillgänglig på flertal olika platformer / devices. Detta är viktigt för att det finns multipla storlekar på skärmar, våra användare idag använder bland annat mobilen när de surfar och även surfplattor. Om man inte ha en responsiv sida så kommer användaren eventuellt ge upp när de kommer in på din webbsida. </p>
+                    <p>Du kan göra webbsidan responsiv med hjälp av media queries, där man sätter storlekar på hur din sida ska se ut vid xx skärmstorlek. Man kan även bygga en webbsida direkt för mobil användning, dvs "Mobile first".</p>
+                    <p>Brytpunkt innebär att vid en viss pixel så byter webbsidan layout.</p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Nätverk</h2>
+                    <p>Din dator skickar en förfrågan till din router och ifrågarsätter vart ligger "www.google.se", routerns skickar då tillbaka ett ack till din dator som berättar att den har fått din request. Efter detta så skickar din router vidare förfrågan till alla servers den är kopplad till, och får därefter tillbaka ett ack att den har fått förfrågan om vart ligger "www.google.se"?. Dessa servrar skickar sedan vidare samma förfrågan till nästa servers tills de hittar en server som har vet vart "www.google.se" ligger. Sedan skickar dessa servers tillbaka det till föregående server till föregående server och tillslut till din lokala router. Därefter skickar din router informationen om din förfrågan och du kan härmed ladda in sidan "www.google.se".</p>
+                </article>
+            </section>
+            <section>
+                <h2>Bootstrap</h2>
+                <p>Bootstrap är ett bibliotek för CSS, detta bibliotek används för att göra saker lättare, dvs de har förbestämda layouter som du kan anropa med rätt div.class</p>
+                <p>Man kan antingen ladda hem bootstrap och ha det i sin html map. Eller så kan man länka till bootstrap via en webbsida. Skillnaden mellan dessa 2 alternativ är att den du laddar ner förändrar sig aldrig i koden, medans om du länkar till ett onlien bibliotek så kommer koden förändra sig. Så när det kommer "major" updates till biblioteket så kan det göra att webbsida kanske inte fungerar 100%.</p>
+            </section>
+            <section>
+                <h2>Kodgranskning.</h2>
+                <ol>
+                    <li>Style ska ligga i ett CSS doc.</li>
+                    <li>background-color heter elementet och inte backgroundColor</li>
+                    <li>link rel ska förflyttas ett tab tbx.</li>
+                    <li>Nav listan saknar ol/ul tags.</li>
+                    <li>Section saknar slut-tag. Och de ska även in ett tab och -1 enter.</li>
+                    <li>efter section tagen så ska även allt "content" in ett tab.</li>
+                    <li>Img saknar figure tag??</li>
+                    <li>div style color har ett ... " ... FÖRLITE.</li>
+                    <li>Form saknar "required" för password.</li>
+                    <li>Saknar semantiska element för footer.</li>
+                    <li>"HTML saknar slut-tag.</li>
+                </ol>
+            </section>
         </main>
         <footer>
+            <label><i>Copyright:</i> Robin Göransson</label>
         </footer>
     </body>
 </html>
